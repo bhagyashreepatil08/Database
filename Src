@@ -1,0 +1,18 @@
+class StudentData {
+	
+	StudentData() {
+	    //this keyword on parameterized constructor
+	    this(10);
+		System.out.println("Inside default constructor");
+	}
+
+	StudentData(int value) {
+		System.out.println("Inside parameterized constructor");
+	}
+}
+
+class Tester {
+	public static void main(String[] args) {
+		StudentData sd = new StudentData();
+	}
+}
